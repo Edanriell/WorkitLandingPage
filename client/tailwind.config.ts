@@ -2,14 +2,31 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
 	content: [
-		"./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-		"./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-		"./src/app/**/*.{js,ts,jsx,tsx,mdx}"
+		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+		"./src/entities/**/*.{js,ts,jsx,tsx}",
+		"./src/next-pages/**/*.{js,ts,jsx,tsx,mdx}",
+		"./src/shared/**/*.{js,ts,jsx,tsx}",
+		"./src/widgets/**/*.{js,ts,jsx,tsx}"
 	],
 	theme: {
 		fontFamily: {
 			fraunces144pt: ["Fraunces 144pt"],
 			manrope: ["Manrope"]
+		},
+		container: {
+			center: true,
+			screens: {
+				DEFAULT: "300px",
+				sm: "375px",
+				md: "768px",
+				lg: "1440px"
+			},
+			padding: {
+				DEFAULT: "1rem",
+				sm: "1.6rem",
+				md: "3.9rem",
+				lg: "16.5rem"
+			}
 		},
 		extend: {
 			colors: {
