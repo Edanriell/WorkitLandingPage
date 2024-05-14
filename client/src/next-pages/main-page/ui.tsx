@@ -1,5 +1,11 @@
-import { FC } from "react";
+import { FC, Fragment } from "react";
+
+import { Header } from "@/widgets";
 
 export const MainPage: FC = () => {
-	return <div>Main Page</div>;
+	return (
+		<Fragment>
+			<Header />
+		</Fragment>
+	);
 };
