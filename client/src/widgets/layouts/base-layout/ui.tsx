@@ -13,13 +13,45 @@ export const BaseLayout: FC<BaseLayoutProps> = ({ children }) => {
 				height="482"
 				viewBox="0 0 375 482"
 				fill="none"
-				preserveAspectRatio="xMinYMin slice"
-				className={"w-full absolute top-0 left-0"}
+				preserveAspectRatio="none"
+				className={"w-full absolute top-0 left-0 md:hidden"}
 			>
 				<path
 					fillRule="evenodd"
 					clipRule="evenodd"
 					d="M0 0H375.303V464C375.303 464 282.249 481.707 188.173 481.707C94.0966 481.707 0 464 0 464V0Z"
+					fill="#24053E"
+				/>
+			</svg>
+			<svg
+				width="768"
+				height="541"
+				viewBox="0 0 768 541"
+				fill="none"
+				preserveAspectRatio="none"
+				className={"w-full absolute top-0 left-0 hidden md:block"}
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					fillRule="evenodd"
+					clipRule="evenodd"
+					d="M0 0H768V504C768 504 577.579 540.236 385.067 540.236C192.554 540.236 0 504 0 504V0Z"
+					fill="#24053E"
+				/>
+			</svg>
+			<svg
+				width="1440"
+				height="730"
+				viewBox="0 0 1440 730"
+				fill="none"
+				preserveAspectRatio="none"
+				className={"w-full absolute top-0 left-0 hidden lg:block"}
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					fillRule="evenodd"
+					clipRule="evenodd"
+					d="M0 0H1440V662C1440 662 1082.96 730 722 730C361.039 730 0 662 0 662V0Z"
 					fill="#24053E"
 				/>
 			</svg>
