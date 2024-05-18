@@ -12,7 +12,7 @@ const config: Config = {
 	],
 	theme: {
 		fontFamily: {
-			fraunces144pt: ["Fraunces 144pt"],
+			fraunces144pt: ["'Fraunces 144pt'"],
 			manrope: ["Manrope"]
 		},
 		container: {

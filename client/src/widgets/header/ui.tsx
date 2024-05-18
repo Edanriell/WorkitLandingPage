@@ -2,10 +2,10 @@ import { FC } from "react";
 
 export const Header: FC = () => {
 	return (
-		<header className={"bg-violet-950"}>
+		<header className={"bg-violet-950 z-30"}>
 			<div
 				className={
-					"container py-[3.2rem] min-[1440px]:py-[5.6rem] flex flex-row justify-between bg-transparent relative z-10"
+					"container py-[3.2rem] min-[1440px]:py-[5.6rem] flex flex-row justify-between items-center bg-transparent relative z-10"
 				}
 			>
 				<svg
@@ -41,7 +41,7 @@ export const Header: FC = () => {
 				<button
 					type={"button"}
 					className={
-						"font-manrope font-bold text-[1.6rem] min-[1440px]:text-[1.8rem] tracking-[-0.01em] text-white-50 after:block after:w-full after:h-[0.3rem] after:bg-spring-green-400 after:mt-[0.3rem]"
+						"font-manrope font-bold text-[1.6rem] min-[1440px]:text-[1.8rem] tracking-[-0.01em] text-white-50 after:block after:w-full after:h-[0.3rem] after:bg-spring-green-400 after:absolute relative leading-[200%] min-[1440px]:leading-[178%]"
 					}
 				>
 					Apply for access

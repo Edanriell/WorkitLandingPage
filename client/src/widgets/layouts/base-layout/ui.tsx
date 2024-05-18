@@ -6,14 +6,14 @@ type BaseLayoutProps = {
 
 export const BaseLayout: FC<BaseLayoutProps> = ({ children }) => {
 	return (
-		<main className={"bg-white-50 relative"}>
+		<main className={"bg-white-50 relative z-10"}>
 			<svg
 				width="375"
 				height="482"
 				viewBox="0 0 375 482"
 				fill="none"
 				preserveAspectRatio="none"
-				className={"w-full absolute top-0 left-0 block min-[768px]:hidden -z-10"}
+				className={"w-full absolute top-0 left-0 block min-[768px]:hidden z-10"}
 				xmlns="http://www.w3.org/2000/svg"
 			>
 				<path
@@ -29,7 +29,7 @@ export const BaseLayout: FC<BaseLayoutProps> = ({ children }) => {
 				viewBox="0 0 768 541"
 				fill="none"
 				preserveAspectRatio="none"
-				className={"w-full absolute top-0 left-0 hidden min-[768px]:block -z-10"}
+				className={"w-full absolute top-0 left-0 hidden min-[768px]:block z-10"}
 				xmlns="http://www.w3.org/2000/svg"
 			>
 				<path
@@ -45,7 +45,7 @@ export const BaseLayout: FC<BaseLayoutProps> = ({ children }) => {
 				viewBox="0 0 1440 730"
 				fill="none"
 				preserveAspectRatio="none"
-				className={"w-full absolute top-0 left-0 hidden min-[1440px]:block -z-10"}
+				className={"w-full absolute top-0 left-0 hidden min-[1440px]:block z-10"}
 				xmlns="http://www.w3.org/2000/svg"
 			>
 				<path
