@@ -54,7 +54,7 @@ export const AdvantagesSection: FC = () => {
 			</svg>
 			<div
 				className={
-					"container pt-[6.4rem] min-[768px]:pt-[5.6rem] min-[1440px]:pt-[8.9rem] z-20 relative min-[768px]:px-[9.7rem]"
+					"container pt-[6.4rem] min-[768px]:pt-[5.6rem] min-[1440px]:pt-[8.9rem] z-20 relative min-[768px]:px-[9.7rem] min-[1440px]:px-[16.5rem]"
 				}
 			>
 				<ul
@@ -84,7 +84,7 @@ export const AdvantagesSection: FC = () => {
 							</h3>
 							<p
 								className={
-									"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-mulled-wine-900 min-[768px]:text-left"
+									"font-manrope font-normal text-[1.6rem] min-[1440px]:text-[1.8rem] leading-[175%] min-[1440px]:leading-[178%] text-center text-mulled-wine-900 min-[768px]:text-left min-[1440px]:text-center"
 								}
 							>
 								Optimize your products, improve customer satisfaction and stay ahead of the
@@ -114,7 +114,7 @@ export const AdvantagesSection: FC = () => {
 							</h3>
 							<p
 								className={
-									"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-mulled-wine-900 min-[768px]:text-left"
+									"font-manrope font-normal text-[1.6rem] min-[1440px]:text-[1.8rem] leading-[175%] min-[1440px]:leading-[178%] text-center text-mulled-wine-900 min-[768px]:text-left min-[1440px]:text-center"
 								}
 							>
 								Make data-driven decisions with our product data analytics. Our AI-generated reports
@@ -144,7 +144,7 @@ export const AdvantagesSection: FC = () => {
 							</h3>
 							<p
 								className={
-									"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-mulled-wine-900 min-[768px]:text-left"
+									"font-manrope font-normal text-[1.6rem] min-[1440px]:text-[1.8rem] leading-[175%] min-[1440px]:leading-[178%] text-center text-mulled-wine-900 min-[768px]:text-left min-[1440px]:text-center"
 								}
 							>
 								Always affordable pricing that scales with your business. Get top-quality product
