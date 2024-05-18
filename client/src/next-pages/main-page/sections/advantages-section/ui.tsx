@@ -20,27 +20,51 @@ export const AdvantagesSection: FC = () => {
 					fill="#FCF8FF"
 				/>
 			</svg>
-			<div className={"container pt-[6.4rem] z-20 relative"}>
-				<ul className={"flex flex-col items-center gap-y-[4rem]"}>
-					<li className={"relative flex flex-col items-center"}>
+			<svg
+				width="768"
+				height="636"
+				viewBox="0 0 768 636"
+				fill="none"
+				preserveAspectRatio="none"
+				className={"w-full absolute top-0 left-0 hidden min-[768px]:block min-[1440px]:hidden z-10"}
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					fillRule="evenodd"
+					clipRule="evenodd"
+					d="M0 0H768V610.97C768 610.97 577.579 636 385.067 636C192.554 636 0 610.97 0 610.97V0Z"
+					fill="#FCF8FF"
+				/>
+			</svg>
+			<div
+				className={
+					"container pt-[6.4rem] min-[768px]:pt-[5.6rem] z-20 relative min-[768px]:px-[9.7rem]"
+				}
+			>
+				<ul className={"flex flex-col items-center gap-y-[4rem] min-[768px]:gap-y-[4.8rem]"}>
+					<li
+						className={
+							"relative flex flex-col items-center gap-y-[2.4rem] min-[768px]:flex-row min-[768px]:gap-y-[0rem] min-[768px]:gap-x-[3.2rem]"
+						}
+					>
 						<div
 							className={
-								"w-[4.8rem] h-[4.8rem] rounded-full border-[0.1rem] border-solid border-mulled-wine-900 relative flex items-center justify-center font-fraunces144pt font-semibold text-[2rem] leading-[180%] text-center text-violet-950 mb-[2.4rem]"
+								"w-[4.8rem] h-[4.6rem] rounded-full border-[0.1rem] border-solid border-mulled-wine-900 relative flex items-center justify-center font-fraunces144pt font-semibold text-[2rem] leading-[180%] text-center text-violet-950 flex-shrink-0"
 							}
 						>
 							1
 						</div>
-						<div>
+						<div className={"flex flex-col gap-y-[1.6rem]"}>
 							<h3
 								className={
-									"font-fraunces144pt font-semibold mb-[1.6rem] text-[2.8rem] leading-[129%] text-center text-violet-950"
+									"font-fraunces144pt font-semibold text-[2.8rem] leading-[129%] text-center text-violet-950 min-[768px]:text-left"
 								}
 							>
 								Actionable insights
 							</h3>
 							<p
 								className={
-									"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-mulled-wine-900"
+									"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-mulled-wine-900 min-[768px]:text-left"
 								}
 							>
 								Optimize your products, improve customer satisfaction and stay ahead of the
@@ -48,25 +72,29 @@ export const AdvantagesSection: FC = () => {
 							</p>
 						</div>
 					</li>
-					<li className={"relative flex flex-col items-center"}>
+					<li
+						className={
+							"relative flex flex-col items-center gap-y-[2.4rem] min-[768px]:flex-row min-[768px]:gap-y-[0rem] min-[768px]:gap-x-[3.2rem]"
+						}
+					>
 						<div
 							className={
-								"w-[4.8rem] h-[4.8rem] rounded-full border-[0.1rem] border-solid border-mulled-wine-900 relative flex items-center justify-center font-fraunces144pt font-semibold text-[2rem] leading-[180%] text-center text-violet-950 mb-[2.4rem]"
+								"w-[4.8rem] h-[4.6rem] rounded-full border-[0.1rem] border-solid border-mulled-wine-900 relative flex items-center justify-center font-fraunces144pt font-semibold text-[2rem] leading-[180%] text-center text-violet-950 flex-shrink-0"
 							}
 						>
 							2
 						</div>
-						<div>
+						<div className={"flex flex-col gap-y-[1.6rem]"}>
 							<h3
 								className={
-									"font-fraunces144pt font-semibold mb-[1.6rem] text-[2.8rem] leading-[129%] text-center text-violet-950"
+									"font-fraunces144pt font-semibold text-[2.8rem] leading-[129%] text-center text-violet-950 min-[768px]:text-left"
 								}
 							>
 								Data-driven decisions
 							</h3>
 							<p
 								className={
-									"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-mulled-wine-900"
+									"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-mulled-wine-900 min-[768px]:text-left"
 								}
 							>
 								Make data-driven decisions with our product data analytics. Our AI-generated reports
@@ -74,25 +102,29 @@ export const AdvantagesSection: FC = () => {
 							</p>
 						</div>
 					</li>
-					<li className={"relative flex flex-col items-center"}>
+					<li
+						className={
+							"relative flex flex-col items-center gap-y-[2.4rem] min-[768px]:flex-row min-[768px]:gap-y-[0rem] min-[768px]:gap-x-[3.2rem]"
+						}
+					>
 						<div
 							className={
-								"w-[4.8rem] h-[4.8rem] rounded-full border-[0.1rem] border-solid border-mulled-wine-900 relative flex items-center justify-center font-fraunces144pt font-semibold text-[2rem] leading-[180%] text-center text-violet-950 mb-[2.4rem]"
+								"w-[4.8rem] h-[4.6rem] rounded-full border-[0.1rem] border-solid border-mulled-wine-900 relative flex items-center justify-center font-fraunces144pt font-semibold text-[2rem] leading-[180%] text-center text-violet-950 flex-shrink-0"
 							}
 						>
 							3
 						</div>
-						<div>
+						<div className={"flex flex-col gap-y-[1.6rem]"}>
 							<h3
 								className={
-									"font-fraunces144pt font-semibold mb-[1.6rem] text-[2.8rem] leading-[129%] text-center text-violet-950"
+									"font-fraunces144pt font-semibold text-[2.8rem] leading-[129%] text-center text-violet-950 min-[768px]:text-left"
 								}
 							>
 								Always affordable
 							</h3>
 							<p
 								className={
-									"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-mulled-wine-900"
+									"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-mulled-wine-900 min-[768px]:text-left"
 								}
 							>
 								Always affordable pricing that scales with your business. Get top-quality product
