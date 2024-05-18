@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 // min-[375px]:bg-amber-950 min-[768px]:bg-black min-[1440px]:bg-red-800
-
+// h-[47.5rem] h-[58.9rem] h-[74.9rem]
 const config: Config = {
 	content: [
 		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",

@@ -7,7 +7,7 @@ import PhoneDesktopImageSrc from "./assets/phone-desktop.png";
 
 export const HeroSection: FC = () => {
 	return (
-		<section className={"bg-red-800 z-10"}>
+		<section className={"bg-white-pointer-50 z-10"}>
 			<div className={"container flex flex-col items-center z-20 relative"}>
 				<h2
 					className={
