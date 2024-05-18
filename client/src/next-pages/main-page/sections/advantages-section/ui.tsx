@@ -22,68 +22,83 @@ export const AdvantagesSection: FC = () => {
 			</svg>
 			<div className={"container pt-[6.4rem] z-20 relative"}>
 				<ul className={"flex flex-col items-center gap-y-[4rem]"}>
-					<li
-						className={
-							"relative flex flex-col items-center before:content-['1'] before:w-[4.8rem] before:h-[4.8rem] before:rounded-full before:border-[0.1rem] before:border-solid before:border-mulled-wine-900 before:relative before:flex before:items-center before:justify-center before:font-fraunces144pt before:font-semibold before:text-[2rem] before:leading-[180%] before:text-center before:text-violet-950 before:mb-[2.4rem]"
-						}
-					>
-						<h3
+					<li className={"relative flex flex-col items-center"}>
+						<div
 							className={
-								"font-fraunces144pt font-semibold mb-[1.6rem] text-[2.8rem] leading-[129%] text-center text-violet-950"
+								"w-[4.8rem] h-[4.8rem] rounded-full border-[0.1rem] border-solid border-mulled-wine-900 relative flex items-center justify-center font-fraunces144pt font-semibold text-[2rem] leading-[180%] text-center text-violet-950 mb-[2.4rem]"
 							}
 						>
-							Actionable insights
-						</h3>
-						<p
-							className={
-								"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-mulled-wine-900"
-							}
-						>
-							Optimize your products, improve customer satisfaction and stay ahead of the
-							competition with our product data analytics.
-						</p>
+							1
+						</div>
+						<div>
+							<h3
+								className={
+									"font-fraunces144pt font-semibold mb-[1.6rem] text-[2.8rem] leading-[129%] text-center text-violet-950"
+								}
+							>
+								Actionable insights
+							</h3>
+							<p
+								className={
+									"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-mulled-wine-900"
+								}
+							>
+								Optimize your products, improve customer satisfaction and stay ahead of the
+								competition with our product data analytics.
+							</p>
+						</div>
 					</li>
-					<li
-						className={
-							"relative flex flex-col items-center before:content-['2'] before:w-[4.8rem] before:h-[4.8rem] before:rounded-full before:border-[0.1rem] before:border-solid before:border-mulled-wine-900 before:relative before:flex before:items-center before:justify-center before:font-fraunces144pt before:font-semibold before:text-[2rem] before:leading-[180%] before:text-center before:text-violet-950 before:mb-[2.4rem]"
-						}
-					>
-						<h3
+					<li className={"relative flex flex-col items-center"}>
+						<div
 							className={
-								"font-fraunces144pt font-semibold mb-[1.6rem] text-[2.8rem] leading-[129%] text-center text-violet-950"
+								"w-[4.8rem] h-[4.8rem] rounded-full border-[0.1rem] border-solid border-mulled-wine-900 relative flex items-center justify-center font-fraunces144pt font-semibold text-[2rem] leading-[180%] text-center text-violet-950 mb-[2.4rem]"
 							}
 						>
-							Data-driven decisions
-						</h3>
-						<p
-							className={
-								"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-mulled-wine-900"
-							}
-						>
-							Make data-driven decisions with our product data analytics. Our AI-generated reports
-							help you unlock insights hidden in your product data.
-						</p>
+							2
+						</div>
+						<div>
+							<h3
+								className={
+									"font-fraunces144pt font-semibold mb-[1.6rem] text-[2.8rem] leading-[129%] text-center text-violet-950"
+								}
+							>
+								Data-driven decisions
+							</h3>
+							<p
+								className={
+									"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-mulled-wine-900"
+								}
+							>
+								Make data-driven decisions with our product data analytics. Our AI-generated reports
+								help you unlock insights hidden in your product data.
+							</p>
+						</div>
 					</li>
-					<li
-						className={
-							"relative flex flex-col items-center before:content-['3'] before:w-[4.8rem] before:h-[4.8rem] before:rounded-full before:border-[0.1rem] before:border-solid before:border-mulled-wine-900 before:relative before:flex before:items-center before:justify-center before:font-fraunces144pt before:font-semibold before:text-[2rem] before:leading-[180%] before:text-center before:text-violet-950 before:mb-[2.4rem]"
-						}
-					>
-						<h3
+					<li className={"relative flex flex-col items-center"}>
+						<div
 							className={
-								"font-fraunces144pt font-semibold mb-[1.6rem] text-[2.8rem] leading-[129%] text-center text-violet-950"
+								"w-[4.8rem] h-[4.8rem] rounded-full border-[0.1rem] border-solid border-mulled-wine-900 relative flex items-center justify-center font-fraunces144pt font-semibold text-[2rem] leading-[180%] text-center text-violet-950 mb-[2.4rem]"
 							}
 						>
-							Always affordable
-						</h3>
-						<p
-							className={
-								"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-mulled-wine-900"
-							}
-						>
-							Always affordable pricing that scales with your business. Get top-quality product data
-							analytics services without hidden costs or unexpected fees.
-						</p>
+							3
+						</div>
+						<div>
+							<h3
+								className={
+									"font-fraunces144pt font-semibold mb-[1.6rem] text-[2.8rem] leading-[129%] text-center text-violet-950"
+								}
+							>
+								Always affordable
+							</h3>
+							<p
+								className={
+									"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-mulled-wine-900"
+								}
+							>
+								Always affordable pricing that scales with your business. Get top-quality product
+								data analytics services without hidden costs or unexpected fees.
+							</p>
+						</div>
 					</li>
 				</ul>
 			</div>
