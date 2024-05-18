@@ -36,28 +36,48 @@ export const AdvantagesSection: FC = () => {
 					fill="#FCF8FF"
 				/>
 			</svg>
+			<svg
+				width="1440"
+				height="569"
+				viewBox="0 0 1440 569"
+				fill="none"
+				preserveAspectRatio="none"
+				className={"w-full absolute top-0 left-0 hidden min-[1440px]:block z-10"}
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					fillRule="evenodd"
+					clipRule="evenodd"
+					d="M0 0H1440V528.696C1440 528.696 1082.96 569 722 569C361.039 569 0 528.696 0 528.696V0Z"
+					fill="#FCF8FF"
+				/>
+			</svg>
 			<div
 				className={
-					"container pt-[6.4rem] min-[768px]:pt-[5.6rem] z-20 relative min-[768px]:px-[9.7rem]"
+					"container pt-[6.4rem] min-[768px]:pt-[5.6rem] min-[1440px]:pt-[8.9rem] z-20 relative min-[768px]:px-[9.7rem]"
 				}
 			>
-				<ul className={"flex flex-col items-center gap-y-[4rem] min-[768px]:gap-y-[4.8rem]"}>
+				<ul
+					className={
+						"flex flex-col items-center gap-y-[4rem] min-[768px]:gap-y-[4.8rem] min-[1440px]:flex-row min-[1440px]:gap-x-[2.6rem] min-[1440px]:gap-y-[0rem]"
+					}
+				>
 					<li
 						className={
-							"relative flex flex-col items-center gap-y-[2.4rem] min-[768px]:flex-row min-[768px]:gap-y-[0rem] min-[768px]:gap-x-[3.2rem]"
+							"relative flex flex-col items-center gap-y-[2.4rem] min-[768px]:flex-row min-[768px]:gap-y-[0rem] min-[768px]:gap-x-[3.2rem] min-[1440px]:flex-col min-[1440px]:gap-y-[5.6rem] min-[1440px]:gap-x-[0rem]"
 						}
 					>
 						<div
 							className={
-								"w-[4.8rem] h-[4.6rem] rounded-full border-[0.1rem] border-solid border-mulled-wine-900 relative flex items-center justify-center font-fraunces144pt font-semibold text-[2rem] leading-[180%] text-center text-violet-950 flex-shrink-0"
+								"w-[4.8rem] min-[1440px]:w-[5.6rem] h-[4.6rem] min-[1440px]:h-[5.6rem] rounded-full border-[0.1rem] border-solid border-mulled-wine-900 relative flex items-center justify-center font-fraunces144pt font-semibold text-[2rem] min-[1440px]:text-[2.4rem] leading-[180%] min-[1440px]:leading-[167%] text-center text-violet-950 flex-shrink-0"
 							}
 						>
 							1
 						</div>
-						<div className={"flex flex-col gap-y-[1.6rem]"}>
+						<div className={"flex flex-col gap-y-[1.6rem] min-[1440px]:gap-y-[2.8rem]"}>
 							<h3
 								className={
-									"font-fraunces144pt font-semibold text-[2.8rem] leading-[129%] text-center text-violet-950 min-[768px]:text-left"
+									"font-fraunces144pt font-semibold text-[2.8rem] min-[1440px]:text-[3.2rem] leading-[129%] min-[1440px]:leading-[125%] text-center text-violet-950 min-[768px]:text-left min-[1440px]:text-center"
 								}
 							>
 								Actionable insights
@@ -74,20 +94,20 @@ export const AdvantagesSection: FC = () => {
 					</li>
 					<li
 						className={
-							"relative flex flex-col items-center gap-y-[2.4rem] min-[768px]:flex-row min-[768px]:gap-y-[0rem] min-[768px]:gap-x-[3.2rem]"
+							"relative flex flex-col items-center gap-y-[2.4rem] min-[768px]:flex-row min-[768px]:gap-y-[0rem] min-[768px]:gap-x-[3.2rem] min-[1440px]:flex-col min-[1440px]:gap-y-[5.6rem] min-[1440px]:gap-x-[0rem]"
 						}
 					>
 						<div
 							className={
-								"w-[4.8rem] h-[4.6rem] rounded-full border-[0.1rem] border-solid border-mulled-wine-900 relative flex items-center justify-center font-fraunces144pt font-semibold text-[2rem] leading-[180%] text-center text-violet-950 flex-shrink-0"
+								"w-[4.8rem] min-[1440px]:w-[5.6rem] h-[4.6rem] min-[1440px]:h-[5.6rem] rounded-full border-[0.1rem] border-solid border-mulled-wine-900 relative flex items-center justify-center font-fraunces144pt font-semibold text-[2rem] min-[1440px]:text-[2.4rem] leading-[180%] min-[1440px]:leading-[167%] text-center text-violet-950 flex-shrink-0"
 							}
 						>
 							2
 						</div>
-						<div className={"flex flex-col gap-y-[1.6rem]"}>
+						<div className={"flex flex-col gap-y-[1.6rem] min-[1440px]:gap-y-[2.8rem]"}>
 							<h3
 								className={
-									"font-fraunces144pt font-semibold text-[2.8rem] leading-[129%] text-center text-violet-950 min-[768px]:text-left"
+									"font-fraunces144pt font-semibold text-[2.8rem] min-[1440px]:text-[3.2rem] leading-[129%] min-[1440px]:leading-[125%] text-center text-violet-950 min-[768px]:text-left min-[1440px]:text-center"
 								}
 							>
 								Data-driven decisions
@@ -104,20 +124,20 @@ export const AdvantagesSection: FC = () => {
 					</li>
 					<li
 						className={
-							"relative flex flex-col items-center gap-y-[2.4rem] min-[768px]:flex-row min-[768px]:gap-y-[0rem] min-[768px]:gap-x-[3.2rem]"
+							"relative flex flex-col items-center gap-y-[2.4rem] min-[768px]:flex-row min-[768px]:gap-y-[0rem] min-[768px]:gap-x-[3.2rem] min-[1440px]:flex-col min-[1440px]:gap-y-[5.6rem] min-[1440px]:gap-x-[0rem]"
 						}
 					>
 						<div
 							className={
-								"w-[4.8rem] h-[4.6rem] rounded-full border-[0.1rem] border-solid border-mulled-wine-900 relative flex items-center justify-center font-fraunces144pt font-semibold text-[2rem] leading-[180%] text-center text-violet-950 flex-shrink-0"
+								"w-[4.8rem] min-[1440px]:w-[5.6rem] h-[4.6rem] min-[1440px]:h-[5.6rem] rounded-full border-[0.1rem] border-solid border-mulled-wine-900 relative flex items-center justify-center font-fraunces144pt font-semibold text-[2rem] min-[1440px]:text-[2.4rem] leading-[180%] min-[1440px]:leading-[167%] text-center text-violet-950 flex-shrink-0"
 							}
 						>
 							3
 						</div>
-						<div className={"flex flex-col gap-y-[1.6rem]"}>
+						<div className={"flex flex-col gap-y-[1.6rem] min-[1440px]:gap-y-[2.8rem]"}>
 							<h3
 								className={
-									"font-fraunces144pt font-semibold text-[2.8rem] leading-[129%] text-center text-violet-950 min-[768px]:text-left"
+									"font-fraunces144pt font-semibold text-[2.8rem] min-[1440px]:text-[3.2rem] leading-[129%] min-[1440px]:leading-[125%] text-center text-violet-950 min-[768px]:text-left min-[1440px]:text-center"
 								}
 							>
 								Always affordable
