@@ -11,7 +11,7 @@ export const HeroSection: FC = () => {
 			<div className={"container flex flex-col items-center z-20 relative"}>
 				<h2
 					className={
-						"font-fraunces144pt font-semibold text-[5rem] text-center text-white-50 mt-[3.2rem] mb-[4rem] leading-[100%]"
+						"font-fraunces144pt font-semibold text-[5rem] min-[768px]:text-[6rem] text-center text-white-50 mt-[3.2rem] min-[768px]:mt-[2.4rem] mb-[4rem] min-[768px]:mb-[3.9rem] leading-[100%] min-[768px]:max-w-[40rem]"
 					}
 				>
 					Data{" "}
@@ -44,7 +44,7 @@ export const HeroSection: FC = () => {
 					height={296}
 					src={PhoneTabletImageSrc}
 					alt={"Image of smartphone"}
-					className={"hidden min-[768px]:block min-[1440px]:hidden"}
+					className={"hidden min-[768px]:block min-[1440px]:hidden mt-[5.5rem]"}
 				/>
 				<Image
 					width={767}
