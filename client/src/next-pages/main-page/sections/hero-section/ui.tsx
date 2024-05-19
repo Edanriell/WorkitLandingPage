@@ -37,21 +37,23 @@ export const HeroSection: FC = () => {
 					height={184}
 					src={PhoneMobileImageSrc}
 					alt={"Image of smartphone"}
-					className={"block min-[768px]:hidden mt-[6.4rem]"}
+					className={"block min-[768px]:hidden mt-[6.4rem] ml-[2rem] mr-[0.3rem]"}
 				/>
 				<Image
 					width={514}
 					height={296}
 					src={PhoneTabletImageSrc}
 					alt={"Image of smartphone"}
-					className={"hidden min-[768px]:block min-[1440px]:hidden mt-[5.5rem]"}
+					className={
+						"hidden min-[768px]:block min-[1440px]:hidden mt-[5.5rem] ml-[11.2rem] mr-[6.4rem]"
+					}
 				/>
 				<Image
 					width={767}
 					height={441}
 					src={PhoneDesktopImageSrc}
 					alt={"Image of smartphone"}
-					className={"hidden min-[1440px]:block mt-[5rem]"}
+					className={"hidden min-[1440px]:block mt-[5rem] ml-[19.6rem] mr-[14.7rem]"}
 				/>
 			</div>
 		</section>
