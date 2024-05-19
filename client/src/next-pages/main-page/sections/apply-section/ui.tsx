@@ -2,17 +2,18 @@ import { FC } from "react";
 import Image from "next/image";
 
 import PersonImageMobileSrc from "./assets/person-mobile.png";
+import PersonImageDesktopSrc from "./assets/person-desktop.png";
 
 export const ApplySection: FC = () => {
 	return (
 		<section
 			className={
-				"container mt-[17.2rem] min-[768px]:mt-[20.4rem] flex flex-col items-center relative"
+				"container mt-[17.2rem] min-[768px]:mt-[20.4rem] min-[1440px]:mt-[28.1rem] flex flex-col items-center relative"
 			}
 		>
 			<div
 				className={
-					"rounded-full bg-spring-green-400 w-[28.1rem] h-[28.1rem] overflow-hidden object-fit flex items-end mb-[-5.3rem] min-[768px]:self-start min-[768px]:mb-[-13rem]"
+					"rounded-full bg-spring-green-400 w-[28.1rem] min-[1440px]:w-[47.7rem] h-[28.1rem] min-[1440px]:h-[47.7rem] overflow-hidden object-fit flex items-end mb-[-5.3rem] min-[768px]:self-start min-[768px]:mb-[-13rem] min-[1440px]:mb-[-30.4rem]"
 				}
 			>
 				<Image
@@ -20,24 +21,31 @@ export const ApplySection: FC = () => {
 					height={267}
 					src={PersonImageMobileSrc}
 					alt={"Image of a person"}
-					className={"mb-[-0.5rem]"}
+					className={"mb-[-0.5rem] min-[1440px]:hidden"}
+				/>
+				<Image
+					width={450}
+					height={453}
+					src={PersonImageDesktopSrc}
+					alt={"Image of a person"}
+					className={"mb-[-0.9rem] hidden min-[1440px]:block"}
 				/>
 			</div>
 			<div
 				className={
-					"w-full bg-violet-950 px-[3.1rem] py-[3.2rem] flex flex-col items-center min-[768px]:ml-[17.5rem] min-[768px]:w-auto min-[768px]:pt-[4.8rem] min-[768px]:px-[5.6rem] min-[768px]:pb-[5.6rem]"
+					"w-full bg-violet-950 px-[3.1rem] py-[3.2rem] flex flex-col items-center min-[768px]:ml-[17.5rem] min-[1440px]:ml-[38rem] min-[768px]:w-auto min-[768px]:pt-[4.8rem] min-[768px]:px-[5.6rem] min-[768px]:pb-[5.6rem] min-[1440px]:p-[6.4rem]"
 				}
 			>
 				<h2
 					className={
-						"font-fraunces144pt font-semibold text-[3.2rem] min-[768px]:text-[4.8rem] leading-[150%] min-[768px]:leading-[117%] text-center min-[768px]:self-start text-white-50 mb-[1.6rem] min-[768px]:mb-[2.4rem]"
+						"font-fraunces144pt font-semibold text-[3.2rem] min-[768px]:text-[4.8rem] min-[1440px]:text-[5.6rem] leading-[150%] min-[768px]:leading-[117%] min-[1440px]:leading-[114%] text-center min-[768px]:self-start text-white-50 mb-[1.6rem] min-[768px]:mb-[2.4rem] min-[1440px]:mb-[3.2rem]"
 					}
 				>
 					Be the first to test
 				</h2>
 				<p
 					className={
-						"font-manrope font-normal text-[1.6rem] leading-[175%] text-center text-white-50 mb-[2.4rem] min-[768px]:text-left"
+						"font-manrope font-normal text-[1.6rem] min-[1440px]:text-[1.8rem] leading-[175%] min-[1440px]:leading-[178%] text-center text-white-50 mb-[2.4rem] min-[1440px]:mb-[3.2rem] min-[768px]:text-left"
 					}
 				>
 					Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a
@@ -46,7 +54,7 @@ export const ApplySection: FC = () => {
 				</p>
 				<button
 					className={
-						"font-manrope font-bold text-[1.6rem] min-[1440px]:text-[1.8rem] tracking-[-0.01em] text-violet-950 bg-spring-green-400 pt-[1.1rem] min-[1440px]:pt-[1.3rem] pb-[1.2rem] min-[1440px]:pb-[1.6rem] px-[2.3rem] min-[1440px]:px-[3.2rem] leading-[200%] min-[1440px]:leading-[178%] min-[768px]:self-start"
+						"font-manrope font-bold text-[1.6rem] min-[1440px]:text-[1.8rem] tracking-[-0.01em] text-violet-950 bg-spring-green-400 pt-[1.1rem] min-[1440px]:pt-[1.3rem] pb-[1.2rem] min-[1440px]:pb-[1.6rem] px-[2.3rem] min-[1440px]:px-[2.4rem] leading-[200%] min-[1440px]:leading-[178%] min-[768px]:self-start"
 					}
 					type={"button"}
 				>
@@ -58,7 +66,9 @@ export const ApplySection: FC = () => {
 				height="212"
 				viewBox="0 0 221 212"
 				fill="none"
-				className={"absolute top-[40.5rem] right-[5rem]"}
+				className={
+					"hidden absolute top-[40.5rem] right-[5rem] min-[768px]:block min-[1440px]:right-[23.6rem] min-[1440px]:top-[45rem]"
+				}
 				xmlns="http://www.w3.org/2000/svg"
 			>
 				<path
