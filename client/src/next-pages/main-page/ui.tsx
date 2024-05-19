@@ -20,8 +20,8 @@ export const MainPage: FC = () => {
 		<Fragment>
 			<h1 className={"sr-only"}>Workit company home page</h1>
 			<Header />
-			{MainPageSections.map(({ Section }) => (
-				<Section />
+			{MainPageSections.map(({ Section }, index) => (
+				<Section key={index} />
 			))}
 			<Footer />
 		</Fragment>
