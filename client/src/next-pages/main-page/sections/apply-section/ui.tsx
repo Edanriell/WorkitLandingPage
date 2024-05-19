@@ -67,7 +67,7 @@ export const ApplySection: FC = () => {
 				viewBox="0 0 221 212"
 				fill="none"
 				className={
-					"hidden absolute top-[40.5rem] right-[5rem] min-[768px]:block min-[1440px]:right-[23.6rem] min-[1440px]:top-[45rem]"
+					"hidden absolute top-[40.5rem] right-[5rem] min-[768px]:block min-[1440px]:right-[23.6rem] min-[1440px]:top-[43.5rem]"
 				}
 				xmlns="http://www.w3.org/2000/svg"
 			>
