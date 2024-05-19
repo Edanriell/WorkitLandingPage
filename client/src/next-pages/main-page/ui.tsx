@@ -1,8 +1,8 @@
 import { FC, Fragment } from "react";
 
 import { Header, Footer } from "@/widgets";
-import { HeroSection } from "./sections/hero-section";
-import { AdvantagesSection } from "./sections/advantages-section";
+import { HeroSection, AdvantagesSection } from "./sections";
+import { ApplySection } from "./sections/apply-section";
 
 export const MainPage: FC = () => {
 	return (
@@ -11,6 +11,7 @@ export const MainPage: FC = () => {
 			<Header />
 			<HeroSection />
 			<AdvantagesSection />
+			<ApplySection />
 			<Footer />
 		</Fragment>
 	);
