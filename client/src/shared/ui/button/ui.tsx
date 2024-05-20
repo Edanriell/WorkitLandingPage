@@ -1,8 +1,8 @@
 import { FC, ReactNode, ButtonHTMLAttributes } from "react";
 import { cva, VariantProps } from "class-variance-authority";
-import { ClassValue, clsx } from "clsx";
-import { twMerge } from "tailwind-merge";
 import { MotionProps } from "framer-motion";
+
+import { cn } from "@shared/lib";
 
 type ButtonProps = {
 	buttonType: "underlined" | "boxy";
@@ -24,10 +24,6 @@ const buttonTypes = cva(
 		}
 	}
 );
-
-function cn(...inputs: ClassValue[]) {
-	return twMerge(clsx(inputs));
-}
 
 // Factory of buttons
 export const Button: FC<ButtonProps> = ({ buttonType, className, children, ...props }) => {
