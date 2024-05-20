@@ -1,6 +1,8 @@
 import { FC } from "react";
 import Image from "next/image";
 
+import { Button } from "@shared/ui";
+
 import PersonImageMobileSrc from "./assets/person-mobile.png";
 import PersonImageDesktopSrc from "./assets/person-desktop.png";
 
@@ -52,14 +54,9 @@ export const ApplySection: FC = () => {
 					beta tester for our app and kickstart your company. Apply for access below and I’ll be in
 					touch to schedule a call.
 				</p>
-				<button
-					className={
-						"font-manrope font-bold text-[1.6rem] min-[1440px]:text-[1.8rem] tracking-[-0.01em] text-violet-950 bg-spring-green-400 pt-[1.1rem] min-[1440px]:pt-[1.3rem] pb-[1.2rem] min-[1440px]:pb-[1.6rem] px-[2.3rem] min-[1440px]:px-[2.4rem] leading-[200%] min-[1440px]:leading-[178%] min-[768px]:self-start"
-					}
-					type={"button"}
-				>
+				<Button buttonType={"boxy"} className={"min-[1440px]:px-[2.4rem] min-[768px]:self-start"}>
 					Apply for access
-				</button>
+				</Button>
 			</div>
 			<svg
 				width="221"

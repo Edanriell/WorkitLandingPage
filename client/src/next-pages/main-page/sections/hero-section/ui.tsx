@@ -1,6 +1,8 @@
 import { FC } from "react";
 import Image from "next/image";
 
+import { Button } from "@shared/ui";
+
 import PhoneMobileImageSrc from "./assets/phone-mobile.png";
 import PhoneTabletImageSrc from "./assets/phone-tablet.png";
 import PhoneDesktopImageSrc from "./assets/phone-desktop.png";
@@ -24,14 +26,7 @@ export const HeroSection: FC = () => {
 					</span>{" "}
 					to your needs.
 				</h2>
-				<button
-					type={"button"}
-					className={
-						"font-manrope font-bold text-[1.6rem] min-[1440px]:text-[1.8rem] tracking-[-0.01em] text-violet-950 bg-spring-green-400 pt-[1.1rem] min-[1440px]:pt-[1.3rem] pb-[1.2rem] min-[1440px]:pb-[1.6rem] px-[2.3rem] min-[1440px]:px-[3.2rem] leading-[200%] min-[1440px]:leading-[178%]"
-					}
-				>
-					Learn more
-				</button>
+				<Button buttonType={"boxy"}>Learn more</Button>
 				<Image
 					width={320}
 					height={184}

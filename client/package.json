@@ -9,12 +9,15 @@
 		"start:lint": "next lint"
 	},
 	"dependencies": {
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.1.1",
 		"framer-motion": "^11.1.9",
 		"next": "14.2.3",
 		"prettier": "^3.2.5",
 		"react": "^18",
 		"react-dom": "^18",
-		"sass": "^1.77.0"
+		"sass": "^1.77.0",
+		"tailwind-merge": "^2.3.0"
 	},
 	"devDependencies": {
 		"@feature-sliced/eslint-config": "^0.1.1",
