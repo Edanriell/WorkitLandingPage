@@ -1,5 +1,7 @@
 import { FC } from "react";
 
+import { Button } from "@shared/ui";
+
 export const Header: FC = () => {
 	return (
 		<header className={"bg-violet-950 z-30"}>
@@ -38,14 +40,7 @@ export const Header: FC = () => {
 						fill="white"
 					/>
 				</svg>
-				<button
-					type={"button"}
-					className={
-						"font-manrope font-bold text-[1.6rem] min-[1440px]:text-[1.8rem] tracking-[-0.01em] text-white-50 after:block after:w-full after:h-[0.3rem] after:bg-spring-green-400 after:absolute relative leading-[200%] min-[1440px]:leading-[178%]"
-					}
-				>
-					Apply for access
-				</button>
+				<Button buttonType={"underlined"}>Apply for access</Button>
 			</div>
 		</header>
 	);
