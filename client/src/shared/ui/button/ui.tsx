@@ -1,6 +1,8 @@
+"use client";
+
 import { FC, ReactNode, ButtonHTMLAttributes } from "react";
 import { cva, VariantProps } from "class-variance-authority";
-import { MotionProps } from "framer-motion";
+import { MotionProps, motion } from "framer-motion";
 
 import { cn } from "@shared/lib";
 
@@ -30,9 +32,15 @@ export const Button: FC<ButtonProps> = ({ buttonType, className, children, ...pr
 	switch (buttonType) {
 		case "underlined":
 			return (
-				<button type={"button"} className={cn(buttonTypes({ buttonType, className }))} {...props}>
+				<motion.button
+					type={"button"}
+					className={cn(buttonTypes({ buttonType, className }))}
+					{...props}
+					whileHover={{ color: "#44ffa1" }}
+					whileTap={{ color: "#44ffa1" }}
+				>
 					{children}
-				</button>
+				</motion.button>
 			);
 		case "boxy":
 			return (
