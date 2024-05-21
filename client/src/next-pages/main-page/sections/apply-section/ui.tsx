@@ -54,7 +54,7 @@ export const ApplySection: FC = () => {
 					beta tester for our app and kickstart your company. Apply for access below and I’ll be in
 					touch to schedule a call.
 				</p>
-				<Button buttonType={"boxy"} className={"min-[1440px]:px-[2.4rem] min-[768px]:self-start"}>
+				<Button buttonType={"boxy"} className={"min-[1440px]:px-[2.2rem] min-[768px]:self-start"}>
 					Apply for access
 				</Button>
 			</div>
