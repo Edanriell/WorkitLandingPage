@@ -52,9 +52,9 @@ export const ApplySection: FC = () => {
 						"font-manrope font-normal text-[1.6rem] min-[1440px]:text-[1.8rem] leading-[175%] min-[1440px]:leading-[178%] text-center text-white-50 mb-[2.4rem] min-[1440px]:mb-[3.2rem] min-[768px]:text-left"
 					}
 				>
-					Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a
-					beta tester for our app and kickstart your company. Apply for access below and I’ll be in
-					touch to schedule a call.
+					Hi, I&apos;m Louis Graham, the founder of the company. Book a demo call with me to become
+					a beta tester for our app and kickstart your company. Apply for access below and I’ll be
+					in touch to schedule a call.
 				</p>
 				<Button buttonType={"boxy"} className={"min-[1440px]:px-[2.2rem] min-[768px]:self-start"}>
 					Apply for access
