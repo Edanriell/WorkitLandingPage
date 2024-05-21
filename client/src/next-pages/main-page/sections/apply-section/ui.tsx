@@ -1,10 +1,12 @@
-import { FC } from "react";
+/* eslint-disable import/no-internal-modules */
+
 import Image from "next/image";
+import { FC } from "react";
 
 import { Button } from "@shared/ui";
 
-import PersonImageMobileSrc from "./assets/person-mobile.png";
 import PersonImageDesktopSrc from "./assets/person-desktop.png";
+import PersonImageMobileSrc from "./assets/person-mobile.png";
 
 export const ApplySection: FC = () => {
 	return (

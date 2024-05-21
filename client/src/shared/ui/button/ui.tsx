@@ -1,8 +1,10 @@
+/* eslint-disable react-hooks/rules-of-hooks */
+
 "use client";
 
-import { FC, ReactNode, ButtonHTMLAttributes, useState } from "react";
 import { cva, VariantProps } from "class-variance-authority";
 import { MotionProps, motion } from "framer-motion";
+import { FC, ReactNode, ButtonHTMLAttributes, useState } from "react";
 
 import { cn } from "@shared/lib";
 

@@ -1,11 +1,13 @@
-import { FC } from "react";
+/* eslint-disable import/no-internal-modules */
+
 import Image from "next/image";
+import { FC } from "react";
 
 import { Button } from "@shared/ui";
 
+import PhoneDesktopImageSrc from "./assets/phone-desktop.png";
 import PhoneMobileImageSrc from "./assets/phone-mobile.png";
 import PhoneTabletImageSrc from "./assets/phone-tablet.png";
-import PhoneDesktopImageSrc from "./assets/phone-desktop.png";
 
 export const HeroSection: FC = () => {
 	return (

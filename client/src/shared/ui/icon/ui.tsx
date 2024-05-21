@@ -1,7 +1,7 @@
 "use client";
 
-import { FC, HTMLAttributes } from "react";
 import { motion, MotionProps } from "framer-motion";
+import { FC, HTMLAttributes } from "react";
 
 type IconProps = {
 	iconType: "facebook" | "x" | "twitter" | "instagram";
