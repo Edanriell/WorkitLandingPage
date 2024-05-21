@@ -1,6 +1,6 @@
 "use client";
 
-import { FC, ReactNode, ButtonHTMLAttributes } from "react";
+import { FC, ReactNode, ButtonHTMLAttributes, useState } from "react";
 import { cva, VariantProps } from "class-variance-authority";
 import { MotionProps, motion } from "framer-motion";
 
@@ -43,16 +43,33 @@ export const Button: FC<ButtonProps> = ({ buttonType, className, children, ...pr
 				</motion.button>
 			);
 		case "boxy":
+			const [isHovered, setIsHovered] = useState<boolean>(false);
+			const [isPressed, setIsPressed] = useState<boolean>(false);
+
+			const boxVariants = {
+				visible: { opacity: 1, scale: 1 },
+				hidden: { opacity: 0, scaleX: 1.2, scaleY: 1.6 }
+			};
+
 			return (
 				<motion.button
 					type={"button"}
 					className={cn(buttonTypes({ buttonType, className }))}
 					{...props}
-					whileHover={{ color: "#44ffa1", scale: 1.05 }}
-					whileTap={{ color: "#44ffa1", scale: 0.95 }}
+					whileHover={{ color: "#44ffa1", scale: 1.1 }}
+					whileTap={{ color: "#44ffa1", scale: 0.9 }}
+					onHoverStart={() => setIsHovered(true)}
+					onHoverEnd={() => setIsHovered(false)}
+					onTapStart={() => setIsPressed(true)}
+					onTap={() => setIsPressed(false)}
+					onTapCancel={() => setIsPressed(false)}
 				>
 					<div className={"relative z-20"}>{children}</div>
-					<div className={"absolute top-0 left-0 w-full h-full bg-spring-green-400 z-10"}></div>
+					<motion.div
+						className={"absolute top-0 left-0 w-full h-full bg-spring-green-400 z-10"}
+						variants={boxVariants}
+						animate={isHovered || isPressed ? "hidden" : "visible"}
+					></motion.div>
 				</motion.button>
 			);
 		default:
