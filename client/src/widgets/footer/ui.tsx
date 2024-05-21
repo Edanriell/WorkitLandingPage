@@ -27,19 +27,19 @@ export const Footer: FC = () => {
 				<li>
 					<a href="#">
 						<Icon iconType={"facebook"} />
-						<span className={"sr-only"}>Facebook</span>
+						<span className={"sr-only"}>Link to our facebook profile</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
 						<Icon iconType={"twitter"} />
-						<span className={"sr-only"}>Twitter</span>
+						<span className={"sr-only"}>Link to our twitter profile</span>
 					</a>
 				</li>
 				<li>
 					<a href="#">
 						<Icon iconType={"instagram"} />
-						<span className={"sr-only"}>Instagram</span>
+						<span className={"sr-only"}>Link to our instagram profile</span>
 					</a>
 				</li>
 			</ul>
