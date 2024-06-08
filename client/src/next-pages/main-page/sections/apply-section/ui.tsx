@@ -1,5 +1,7 @@
-/* eslint-disable import/no-internal-modules */
+"use client";
 
+/* eslint-disable import/no-internal-modules */
+import { motion } from "framer-motion";
 import Image from "next/image";
 import { FC } from "react";
 
@@ -15,7 +17,9 @@ export const ApplySection: FC = () => {
 				"container mt-[17.2rem] min-[768px]:mt-[20.4rem] min-[1440px]:mt-[28.1rem] flex flex-col items-center relative"
 			}
 		>
-			<div
+			<motion.div
+				initial={{ opacity: 0, translateX: 25 }}
+				whileInView={{ opacity: 1, translateX: 0, transition: { duration: 0.25 } }}
 				className={
 					"rounded-full bg-spring-green-400 w-[28.1rem] min-[1440px]:w-[47.7rem] h-[28.1rem] min-[1440px]:h-[47.7rem] overflow-hidden object-fit flex items-end mb-[-5.3rem] min-[768px]:self-start min-[768px]:mb-[-13rem] min-[1440px]:mb-[-30.4rem]"
 				}
@@ -34,8 +38,10 @@ export const ApplySection: FC = () => {
 					alt={"Image of a person"}
 					className={"mb-[-0.9rem] hidden min-[1440px]:block"}
 				/>
-			</div>
-			<div
+			</motion.div>
+			<motion.div
+				initial={{ opacity: 0, translateX: -25 }}
+				whileInView={{ opacity: 1, translateX: 0, transition: { duration: 0.25 } }}
 				className={
 					"w-full bg-violet-950 px-[3.1rem] py-[3.2rem] flex flex-col items-center min-[768px]:ml-[17.5rem] min-[1440px]:ml-[38rem] min-[768px]:w-auto min-[768px]:pt-[4.8rem] min-[768px]:px-[5.6rem] min-[768px]:pb-[5.6rem] min-[1440px]:p-[6.4rem]"
 				}
@@ -59,7 +65,7 @@ export const ApplySection: FC = () => {
 				<Button buttonType={"boxy"} className={"min-[1440px]:px-[2.2rem] min-[768px]:self-start"}>
 					Apply for access
 				</Button>
-			</div>
+			</motion.div>
 			<svg
 				width="221"
 				height="212"

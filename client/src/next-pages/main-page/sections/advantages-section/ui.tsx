@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import { FC } from "react";
 
 export const AdvantagesSection: FC = () => {
@@ -62,7 +65,9 @@ export const AdvantagesSection: FC = () => {
 						"flex flex-col items-center gap-y-[4rem] min-[768px]:gap-y-[4.8rem] min-[1440px]:flex-row min-[1440px]:gap-x-[2.6rem] min-[1440px]:gap-y-[0rem]"
 					}
 				>
-					<li
+					<motion.li
+						initial={{ opacity: 0, translateY: -25 }}
+						whileInView={{ opacity: 1, translateY: 0, transition: { duration: 0.25 } }}
 						className={
 							"relative flex flex-col items-center gap-y-[2.4rem] min-[768px]:flex-row min-[768px]:gap-y-[0rem] min-[768px]:gap-x-[3.2rem] min-[1440px]:flex-col min-[1440px]:gap-y-[5.6rem] min-[1440px]:gap-x-[0rem]"
 						}
@@ -91,8 +96,10 @@ export const AdvantagesSection: FC = () => {
 								competition with our product data analytics.
 							</p>
 						</div>
-					</li>
-					<li
+					</motion.li>
+					<motion.li
+						initial={{ opacity: 0, translateY: -25 }}
+						whileInView={{ opacity: 1, translateY: 0, transition: { delay: 0.25, duration: 0.25 } }}
 						className={
 							"relative flex flex-col items-center gap-y-[2.4rem] min-[768px]:flex-row min-[768px]:gap-y-[0rem] min-[768px]:gap-x-[3.2rem] min-[1440px]:flex-col min-[1440px]:gap-y-[5.6rem] min-[1440px]:gap-x-[0rem]"
 						}
@@ -121,8 +128,10 @@ export const AdvantagesSection: FC = () => {
 								help you unlock insights hidden in your product data.
 							</p>
 						</div>
-					</li>
-					<li
+					</motion.li>
+					<motion.li
+						initial={{ opacity: 0, translateY: -25 }}
+						whileInView={{ opacity: 1, translateY: 0, transition: { delay: 0.5, duration: 0.25 } }}
 						className={
 							"relative flex flex-col items-center gap-y-[2.4rem] min-[768px]:flex-row min-[768px]:gap-y-[0rem] min-[768px]:gap-x-[3.2rem] min-[1440px]:flex-col min-[1440px]:gap-y-[5.6rem] min-[1440px]:gap-x-[0rem]"
 						}
@@ -151,7 +160,7 @@ export const AdvantagesSection: FC = () => {
 								data analytics services without hidden costs or unexpected fees.
 							</p>
 						</div>
-					</li>
+					</motion.li>
 				</ul>
 			</div>
 		</section>
