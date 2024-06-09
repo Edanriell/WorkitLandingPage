@@ -1,6 +1,5 @@
 import { FC, Fragment } from "react";
 
-import { Header, Footer } from "@/widgets";
 import { HeroSection, AdvantagesSection, ApplySection } from "./sections";
 
 const MainPageSections = [
@@ -18,12 +17,9 @@ const MainPageSections = [
 export const MainPage: FC = () => {
 	return (
 		<Fragment>
-			<h1 className={"sr-only"}>Workit company home page</h1>
-			<Header />
 			{MainPageSections.map(({ Section }, index) => (
 				<Section key={index} />
 			))}
-			<Footer />
 		</Fragment>
 	);
 };
